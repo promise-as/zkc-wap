@@ -791,4 +791,24 @@ select { background-image: url(tri.png); background-size: 0.2533333333rem 0.1333
 .china-mod .ch-wd-3 .wd-list li .txt { padding: 0.2666666667rem; text-align: left; position: relative; }
 .china-mod .ch-wd-3 .wd-list li .txt p { font-size: 0.2666666667rem; color: #666; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; line-height: 1.6; }
 .china-mod .ch-wd-3 .wd-list li .txt a { font-size: 0.2666666667rem; color: #ef4a1a; position: absolute; right: 0.2666666667rem; bottom: 0.2666666667rem; line-height: 1.6; background-color: #fafafa; padding: 0 0.0666666667rem; }
+
 /* author: HongBaojin 2020-01-06 */
+.px-btn { display: inline-block; margin: 0.1333333333rem 0; padding: 0 0.24rem; line-height: 0.5866666667rem; background-image: linear-gradient(132deg, #ee4e5c 0%, #cf3340 100%), linear-gradient(#757575, #757575); background-blend-mode: normal, normal; box-shadow: 0px 0.04rem 0.08rem 0px rgba(207, 51, 64, 0.24); border-radius: 0.2933333333rem; font-size: 0.2933333333rem; color: #ffffff; }
+
+.footer-site { width: 100%; height: 1.3066666667rem; }
+
+.px-footer { display: flex; width: 10rem; height: 1.3066666667rem; background: url(https://img.thea.cn/public/platform/thea/202001/hbj/ksw-wap/images/footer.png) no-repeat #fff; background-size: 100% 100%; position: fixed; bottom: 0; left: 0; right: 0; margin: auto; z-index: 30; }
+.px-footer a { width: 20%; height: 100%; }
+
+/* 弹窗 */
+.px-popup { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 30; display: none; }
+.px-popup .masklayer { position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); }
+.px-popup .popup-cont { width: 8rem; height: 8.4266666667rem; transform: translate(-50%, -50%); position: absolute; top: 50%; left: 50%; z-index: 1; padding: 2.0266666667rem 0.2666666667rem 0.2666666667rem; box-sizing: border-box; background-size: 100% 100%; }
+.px-popup .popup-cont .popup-close { width: 0.32rem; height: 0.32rem; position: absolute; top: 0.2666666667rem; right: 0.2666666667rem; cursor: pointer; margin-right: 0; }
+.px-popup .popup-cont .sign-in { padding: 0.4rem; background-color: #ffffff; border-radius: 0.0533333333rem; }
+.px-popup .popup-cont .sign-in input, .px-popup .popup-cont .sign-in select { width: 5.5066666667rem; height: 0.8266666667rem; line-height: 0.8266666667rem; font-size: 0.3466666667rem; background-color: #ffffff; border: solid 1px #e7e7e7; padding: 0 0.2666666667rem; box-sizing: border-box; appearance: none; -webkit-appearance: none; }
+.px-popup .popup-cont .sign-in select { background: url(https://img.thea.cn/public/platform/thea/202001/hbj/ksw-wap/images/sel.png) no-repeat 94%; }
+.px-popup .popup-cont .sign-in .row { margin-bottom: 0.2666666667rem; text-align: center; }
+.px-popup .popup-cont .sign-in input[type="submit"] { border: none; width: 100%; background-image: linear-gradient(132deg, #e94106 0%, #cf3340 100%), linear-gradient(#ffffff, #ffffff); background-blend-mode: normal, normal; box-shadow: 0px 0.0533333333rem 0.08rem 0px rgba(207, 51, 64, 0.26); font-size: 0.3733333333rem; font-weight: bold; border-radius: 0.4133333333rem; color: #fff; cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

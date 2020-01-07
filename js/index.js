@@ -202,3 +202,13 @@ function midtc(ele, c, f, a, n, ele2, isBtm) {
         }, d)
     }
 };
+
+// author:HongBaojin 2020-01-06
+$(function(){
+    $('.form-btn').click(function(){
+        $('#popup').show();
+    })
+    $('.popup-close').click(function(){
+        $('#popup').hide();
+    })
+})

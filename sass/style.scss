@@ -14,6 +14,28 @@ $browser-default-font-size: 75px !default;
   font-size: pr(22px);
   color: #ffffff;
 }
+// 底部
+.footer-site{
+  width: 100%;
+  height: pr(98px);
+}
+.px-footer{
+  display: flex;
+  width: pr(750px);
+  height: pr(98px);
+  background: url(https://img.thea.cn/public/platform/thea/202001/hbj/ksw-wap/images/footer.png) no-repeat #fff;
+  background-size: 100% 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 30;
+  a{
+    width: 20%;
+    height: 100%;
+  }
+}
 /* 弹窗 */
 .px-popup {
   position: fixed;
@@ -22,7 +44,7 @@ $browser-default-font-size: 75px !default;
   right: 0;
   bottom: 0;
   z-index: 30;
-  // display: none;
+  display: none;
   .masklayer {
     position: absolute;
     top: 0;
@@ -71,10 +93,11 @@ $browser-default-font-size: 75px !default;
         -webkit-appearance: none;
       }
       select {
-        background: url(../images/sel.png) no-repeat 84%;
+        background: url(https://img.thea.cn/public/platform/thea/202001/hbj/ksw-wap/images/sel.png) no-repeat 94%;
       }
       .row {
         margin-bottom: pr(20px);
+        text-align: center;
       }
       input[type="submit"] {
         border: none;
